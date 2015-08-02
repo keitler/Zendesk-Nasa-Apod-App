@@ -1,0 +1,58 @@
+#nasa-image .nasa-title h3 {
+	margin: 10px 0;
+	text-align: center;
+}
+
+#nasa-image .nasa-image-wrapper  {
+	text-align: center
+}
+
+#nasa-image .nasa-image-wrapper img {
+	width: 80%;
+    border: 3px solid #C5C5C5;
+    margin: auto 0;
+
+}
+
+#nasa-date {
+	text-align: center;
+	border-bottom: 1px solid #C5C5C5;
+}
+
+#nasa-date p {
+	color:#005580;
+}
+
+#datepicker {
+	margin: 15px 0;
+    border: 1px solid #555555;
+    width: 90%;
+}
+
+#nasa-error p {
+	margin: 15px 0;
+	text-align: center;
+	color:#F00;
+}
+
+.modal {
+    position: fixed;
+    top: 5% !important;
+    right: 0px;
+    bottom: 0px;
+    left: 2%;
+    z-index: 1050;
+    display: block !important;
+    overflow: auto;
+    outline: 0px;
+    height: 90%;
+    width: 95%;
+    margin:auto;
+}
+
+.modal-body {
+    overflow-y: visible;
+    max-height: 600px;
+    padding: 15px;
+}
+
