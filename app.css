@@ -35,7 +35,7 @@
 	color:#F00;
 }
 
-.modal {
+.modal.fade.in {
     position: fixed;
     top: 5% !important;
     right: 0px;
